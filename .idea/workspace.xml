@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd6c7f71-795b-49b6-8b9c-6b2f49e14704" name="Default" comment="Stuff">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_input/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_output/result/content.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_output/result/init.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_output/result/result.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_output/result/style_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imagenet-vgg-verydeep-19.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/content/lion.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/content/pattern01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Faces02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Faces03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Faces04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Faces05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Faces06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/Humans05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/mFaces01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/monkeys01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/monkeys02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/monkeys03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural-style-imgs03/styles/monkeys04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/neural-style-tf.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_output/result/meta_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/running_for_robin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spell hypergrid comms.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input/lion.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input/face_mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input/face_mask_inv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-style-imgs03/content/lion.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/neural-style-imgs03/content/pattern01.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/running_for_robin.py" afterPath="$PROJECT_DIR$/running_for_robin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +24,8 @@
       <file leaf-file-name="running_for_robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_for_robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="368">
+              <caret line="36" column="148" lean-forward="false" selection-start-line="36" selection-start-column="148" selection-end-line="36" selection-end-column="148" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -187,8 +162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_for_robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="368">
+          <caret line="36" column="148" lean-forward="false" selection-start-line="36" selection-start-column="148" selection-end-line="36" selection-end-column="148" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
