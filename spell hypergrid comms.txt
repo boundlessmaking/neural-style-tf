@@ -1,0 +1,76 @@
+spell run --github-url https://github.com/cysmith/neural-style-tf \
+            --mount runs/1/imagenet-vgg-verydeep-19.mat \
+            --mount uploads/neural-style-imgs/styles:styles \
+            --mount uploads/neural-style-imgs/content:image_input \
+            --machine-type K80 \
+“python neural_style.py \
+		              --content_img lion.jpg \
+                       --style_imgs Humans05 \
+                       --max_size 1000 \
+                       --max_iterations 100 \
+                       --original_colors \
+                       --device /cpu:0 \
+                       --verbose;“
+
+spell run --github-url https://github.com/cysmith/neural-style-tf \
+            --mount runs/1/imagenet-vgg-verydeep-19.mat \
+            --mount uploads/neural-style-imgs/styles:styles \
+            --mount uploads/neural-style-imgs/content:image_input \
+            --machine-type K80 \
+“python neural_style.py\
+--style_imgs Humans05\
+--content_img lion.jpg\
+--max_size 1000\
+--max_iterations 200\
+--verbose”
+
+
+spell run --github-url https://github.com/cysmith/neural-style-tf --machine-type K80 --mount uploads/neural-style-imgs/content:/spell/image_input --mount runs/1/imagenet-vgg-verydeep-19.mat:/spell/imagenet-vgg-verydeep-19.mat --mount uploads/neural-style-imgs/styles:/spell/styles 'python neural_style.py --style_imgs Humans05.png --content_img lion.jpg --max_iterations 200 --verbose'
+
+
+spell hyper grid --github-url https://github.com/cysmith/neural-style-tf \
+                   --mount runs/1/imagenet-vgg-verydeep-19.mat \
+                   --mount uploads/neural-style-imgs/styles:styles \
+                   --mount uploads/neural-style-imgs/content:image_input \
+                   --machine-type K80 \
+                   --param STYLE_WEIGHT=1e-20,1e-5,1e1,1e2,1e5,1e10,1e100 \
+                   --param TEMPORAL_WEIGHT=2e2 \
+  "python neural_style.py \
+  --style_weight :STYLE_WEIGHT: \
+  --temporal_weight :TEMPORAL_WEIGHT: \
+  --style_imgs Humans05.png \
+  --img_name :STYLE_WEIGHT: \
+  --img_output_dir ./ \
+  --content_img lion.jpg --max_iterations 500 --verbose;"
+
+spell hyper grid --github-url https://github.com/cysmith/neural-style-tf \
+                   --mount runs/1/imagenet-vgg-verydeep-19.mat \
+                   --mount uploads/neural-style-imgs/styles:styles \
+                   --mount uploads/neural-style-imgs/content:image_input \
+                   --machine-type K80 \
+                   --param STYLE_WEIGHT=1e15,1e20,1e25 \
+                   --param TEMPORAL_WEIGHT=2e2 \
+  "python neural_style.py \
+  --style_weight :STYLE_WEIGHT: \
+  --temporal_weight :TEMPORAL_WEIGHT: \
+  --style_imgs Humans05.png \
+  --img_name :STYLE_WEIGHT: \
+  --img_output_dir ./ \
+  --content_img lion.jpg --max_iterations 600 --verbose;"
+
+
+
+spell hyper grid --github-url https://github.com/cysmith/neural-style-tf \
+                   --mount runs/1/imagenet-vgg-verydeep-19.mat \
+                   --mount uploads/neural-style-imgs03/styles:styles \
+                   --mount uploads/neural-style-imgs03/content:image_input \
+                   --machine-type K80 \
+                   --param STYLE_WEIGHT=1e15 \
+                   --param TEMPORAL_WEIGHT=2e2 \
+                   --param STYLES=Faces06.png,Faces05.png,Faces03.png,Faces02.png,monkeys04.png,monkeys02.png \
+  "python neural_style.py \
+  --style_weight :STYLE_WEIGHT: \
+  --temporal_weight :TEMPORAL_WEIGHT: \
+  --style_imgs :STYLES: \
+  --img_output_dir ./ \
+  --content_img pattern01.jpg --max_iterations 3000 --verbose;"
