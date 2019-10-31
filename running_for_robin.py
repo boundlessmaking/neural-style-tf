@@ -5,9 +5,9 @@ import os
 
 
 
-results_path = ""
+results_path = "/Users/robin1/Projects/AI Depth maps/python_style_transf/neural-style-tf/image_output/result03"
 
-style_path = "/home/liiru/ai/tensorflow-style-transfer-master/hyper/styles/"
+style_path = "/Users/robin1/Projects/AI Depth maps/python_style_transf/neural-style-tf/styles03"
 pattern_path = "/home/liiru/ai/tensorflow-style-transfer-master/hyper/patterns/"
 
 
@@ -34,7 +34,7 @@ for filename in os.listdir(pattern_path):
 
 #this gives the system the run commands
 def run_helper(content, style, output_path, loss):
-    run_string = "python neural_style.py --content_img "+ content + " --style_imgs " + style + " --img_output_dir " + output_path + " --loss_ratio " + loss +" --num_iter 50" + " --content_loss_function 3"
+    run_string = "python neural_style.py --content_img "+ content + " --style_imgs " + style + " --img_output_dir " + output_path + " --style_weight " + loss +" --max_iterations 1000"
     return run_string
 
 
