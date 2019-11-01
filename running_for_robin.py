@@ -10,6 +10,14 @@ results_path = "/image_output/result04/"
 style_path = "/styles03/"
 pattern_path = "/image_input02/"
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+results_path = dir_path + results_path
+style_path = dir_path + style_path
+pattern_path = dir_path + pattern_path
+
+print(results_path)
+
 
 
 #these initialize the lists of styles and patterns in respective folders
