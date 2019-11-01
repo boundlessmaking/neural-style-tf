@@ -7,7 +7,7 @@ import os
 
 results_path = "/image_output/result04/"
 
-style_path = "/styles03/"
+style_path = "/styles04/"
 pattern_path = "/image_input02/"
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
