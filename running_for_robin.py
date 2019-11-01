@@ -5,10 +5,10 @@ import os
 
 
 
-results_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_output/result04/"
+results_path = "/image_output/result04/"
 
-style_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/styles03/"
-pattern_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_input02/"
+style_path = "/styles03/"
+pattern_path = "/image_input02/"
 
 
 
