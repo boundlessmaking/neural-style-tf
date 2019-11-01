@@ -5,10 +5,10 @@ import os
 
 
 
-results_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_output/result03/"
+results_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_output/result04/"
 
 style_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/styles03/"
-pattern_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_input/"
+pattern_path = "/Users/robin1/Projects/AI_Depth_maps/python_style_transf/neural-style-tf/image_input02/"
 
 
 
@@ -45,7 +45,7 @@ def run_helper(content, style, output_path, loss):
 
 
 #loss ratios to be tested
-loss_ratios = ["1e4","1e2","1","1e-2","1e-4"]
+loss_ratios = ["1e10", "1e7", "1e4","1e2"]
 
 
 #run this to do the stuff
