@@ -59,8 +59,9 @@ def run_helper(content, style, output_path, loss):
 
 
 #loss ratios to be tested
-# loss_ratios = ["1e10", "1e7", "1e4","1e2"]
-loss_ratios = ["1e7"]
+
+loss_ratios = ["1e7", "1e4","1e2"]
+#loss_ratios = ["1e7"]
 
 
 #run this to do the stuff
