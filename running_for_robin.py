@@ -76,7 +76,7 @@ loss_ratios = ["1e6", "2e1","3e6","1e9","1e2"]
 #iterations = [1000,2100,700,500,900,400,950]
 iterations = ["100","21","70","50","90","40","95"]
 
-num_of_trans = 4
+num_of_trans = 2
 
 i = 0
 for pattern in patterns:
