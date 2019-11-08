@@ -11,11 +11,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run07-test/result07/"
+results_path = "/run07/result07/"
 res_path = results_path
 
-style_path = "/run07-test/styles07/"
-pattern_path = "/run07-test/image_input07/"
+style_path = "/run07/styles07/"
+pattern_path = "/run07/image_input07/"
 
 result_name= "result_"
 
@@ -76,7 +76,7 @@ loss_ratios = ["1e6", "2e1","3e6","1e9","1e2"]
 iterations = ["1000","2100","700","500","900","400","950"]
 #iterations = ["100","21","70","50","90","40","95"]
 
-num_of_trans = 2
+num_of_trans = 10
 
 i = 0
 for pattern in patterns:
@@ -105,7 +105,7 @@ for depth_style in styles:
 
         d_style_path = style_path + depth_style
         content_path = pattern_path + cont_pattern
-        output_path = results_path[:-1] + \
+        output_path = results_path + \
                       cont_pattern.split(".")[0] + \
                       "-" + depth_style.split(".")[0] + \
                       "_lo-" + rand_loss + \
