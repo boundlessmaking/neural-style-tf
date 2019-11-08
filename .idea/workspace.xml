@@ -24,11 +24,11 @@
       <file leaf-file-name="running_for_robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_for_robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
-                <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+                <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
               </folding>
             </state>
           </provider>
@@ -537,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573224459656</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="prep run07-test">
+      <created>1573235715218</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1573235715218</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -587,7 +594,8 @@
     <MESSAGE value="run prep 05" />
     <MESSAGE value="run prep 05 - folder correction" />
     <MESSAGE value="run prep 05-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="run prep 05-2" />
+    <MESSAGE value="prep run07-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="prep run07-test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,7 +621,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -634,7 +642,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -655,7 +663,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -676,7 +684,7 @@
           <caret line="7" column="64" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="64" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -697,7 +705,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -718,7 +726,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>
@@ -745,11 +753,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_for_robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
-            <marker date="1573235693552" expanded="false" signature="4146:6217" ph="..." />
+            <marker date="1573235805277" expanded="false" signature="4145:6216" ph="..." />
           </folding>
         </state>
       </provider>

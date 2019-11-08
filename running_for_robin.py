@@ -11,7 +11,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run07-test/result07/"
+results_path = "/run07-test/result07"
 res_path = results_path
 
 style_path = "/run07-test/styles07/"
