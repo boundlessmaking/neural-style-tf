@@ -8,6 +8,7 @@ import time
 import cv2
 import os
 
+tf.get_logger().setLevel('INFO')
 '''
   parsing and configuration
 '''

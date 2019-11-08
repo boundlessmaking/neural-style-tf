@@ -1,6 +1,7 @@
 #import run_main
 import os
 
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
@@ -56,7 +57,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 100 " + \
+                 " --max_iterations 120 " + \
                  " --img_name " + result_name + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
@@ -67,7 +68,7 @@ def run_helper(content, style, output_path, loss):
 #loss ratios to be tested
 
 #loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e5"]
+loss_ratios = ["1e4"]
 
 i = 0
 for pattern in patterns:
