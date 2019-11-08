@@ -1,6 +1,8 @@
 #import run_main
 import os
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
+
 
 
 
@@ -54,7 +56,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 500 " + \
+                 " --max_iterations 300 " + \
                  " --img_name " + result_name + content.split(".")[0] + "_" + style.split(".")[0] + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
@@ -65,13 +67,15 @@ def run_helper(content, style, output_path, loss):
 #loss ratios to be tested
 
 #loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e7"]
+loss_ratios = ["1e8"]
 
 i = 0
 for pattern in patterns:
     for tyyli in styles:
         for loss in loss_ratios:
             i+=1
+
+print("_" * 20)
 print("Style transfers to perform: ", i)
 
 j = 0
@@ -85,11 +89,13 @@ for pattern in patterns:
             print(content_path, tyyli_path, output_path, loss)
             j += 1
             try:
+                print("_"*20)
                 print("running style transfer  ", j ," of ", i)
+                print("_" * 20)
                 os.system(run_helper(content_path, tyyli_path, output_path, loss))
             except:
                 print("some error happened")
 
-os.system("echo this is the current directory:")
-os.system("pwd")
-os.system("ls")
+os.system("git add . ")
+os.system("git commit -m " + "\" ran style transfer " + i + " times saved in" +results_path +" \"")
+os.system("git push")
