@@ -68,7 +68,7 @@ def run_helper(content, style, output_path, loss):
 #loss ratios to be tested
 
 #loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e4"]
+loss_ratios = ["1e3"]
 
 i = 0
 for pattern in patterns:
@@ -98,8 +98,11 @@ for pattern in patterns:
             except:
                 print("some error happened")
 
+print("_"*40)
+print("   ")
+
 git_c_mess = "git commit -m " + "\" ran style transfer " + str(i) + " times saved in" + results_path +" \""
-print(git_c_mess)
+print("commit message: ",git_c_mess)
 
 os.system("git add . ")
 os.system(git_c_mess)
