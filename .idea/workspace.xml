@@ -2,111 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd6c7f71-795b-49b6-8b9c-6b2f49e14704" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image_input03/gh_pattern01-99.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/running_for_robin.py" afterPath="$PROJECT_DIR$/running_for_robin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,8 +20,8 @@
       <file leaf-file-name="running_for_robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_for_robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -457,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572697514088</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="run prep 05 - folder correction">
+      <created>1573215276612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573215276613</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -495,7 +398,8 @@
     <MESSAGE value="run prep 02" />
     <MESSAGE value="run prep" />
     <MESSAGE value="run prep 05" />
-    <option name="LAST_COMMIT_MESSAGE" value="run prep 05" />
+    <MESSAGE value="run prep 05 - folder correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="run prep 05 - folder correction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -622,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_for_robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
