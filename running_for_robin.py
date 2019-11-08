@@ -20,13 +20,13 @@ results_path = dir_path + results_path
 style_path = dir_path + style_path
 pattern_path = dir_path + pattern_path
 
-print(results_path)
+#print(results_path)
 
 
 
 #these initialize the lists of styles and patterns in respective folders
 styles = []
-print(os.listdir(style_path))
+#print(os.listdir(style_path))
 
 for filename in os.listdir(style_path):
     if filename.endswith("jpg") or filename.endswith("png"):
@@ -34,11 +34,11 @@ for filename in os.listdir(style_path):
         print(filename)
         styles.append(filename)
 
-print(styles)
+#print(styles)
 
 patterns = []
 
-print(os.listdir(pattern_path))
+#print(os.listdir(pattern_path))
 
 for filename in os.listdir(pattern_path):
     if filename.endswith("jpg") or filename.endswith("png"):
@@ -46,7 +46,7 @@ for filename in os.listdir(pattern_path):
         print(filename)
         patterns.append(filename)
 
-print(patterns)
+#print(patterns)
 
 
 
@@ -56,7 +56,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 300 " + \
+                 " --max_iterations 100 " + \
                  " --img_name " + result_name + content.split(".")[0] + "_" + style.split(".")[0] + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
@@ -75,7 +75,7 @@ for pattern in patterns:
         for loss in loss_ratios:
             i+=1
 
-print("_" * 20)
+print("_" * 40)
 print("Style transfers to perform: ", i)
 
 j = 0
@@ -89,13 +89,17 @@ for pattern in patterns:
             print(content_path, tyyli_path, output_path, loss)
             j += 1
             try:
-                print("_"*20)
+                print("_"*40)
+                print("   ")
                 print("running style transfer  ", j ," of ", i)
-                print("_" * 20)
+                print("_" * 40)
                 os.system(run_helper(content_path, tyyli_path, output_path, loss))
             except:
                 print("some error happened")
 
+git_c_mess = "git commit -m " + "\" ran style transfer " + i + " times saved in" +results_path +" \""
+print(git_c_mess)
+
 os.system("git add . ")
-os.system("git commit -m " + "\" ran style transfer " + i + " times saved in" +results_path +" \"")
+os.system(git_c_mess)
 os.system("git push")
