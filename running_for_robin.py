@@ -5,10 +5,10 @@ import os
 
 
 
-results_path = "/run05/result05/"
+results_path = "/run05-test/result05/"
 
-style_path = "/run05/styles05/"
-pattern_path = "/run05/image_input05/"
+style_path = "/run05-test/styles05/"
+pattern_path = "/run05-test/image_input05/"
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -51,7 +51,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 1000" + \
+                 " --max_iterations 500" + \
                  " --verbose "  # + \
                  #" --device /cpu:0 "
     print(run_string)
