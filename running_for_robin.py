@@ -74,7 +74,7 @@ def run_helper(content, style, output_path, loss,iterations,style_name,content_n
 loss_ratios = ["1e6", "2e1","3e6","1e9","1e2"]
 #loss_ratios = ["1e3"]
 #iterations = [1000,2100,700,500,900,400,950]
-iterations = [100,21,70,50,90,40,95]
+iterations = ["100","21","70","50","90","40","95"]
 
 num_of_trans = 4
 
