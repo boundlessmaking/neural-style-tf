@@ -67,7 +67,7 @@ def run_helper(content, style, output_path, loss):
 #loss ratios to be tested
 
 #loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e8"]
+loss_ratios = ["1e9"]
 
 i = 0
 for pattern in patterns:
