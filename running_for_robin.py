@@ -105,11 +105,14 @@ for depth_style in styles:
 
         d_style_path = style_path + depth_style
         content_path = pattern_path + cont_pattern
-        output_path = results_path + \
+        output_path = results_path
+                      '''
+                      + \
                       cont_pattern.split(".")[0] + \
                       "-" + depth_style.split(".")[0] + \
                       "_lo-" + rand_loss + \
                       "_it-" + rand_iteration
+                      '''
         j += 1
         inst_start_time = time.time()
         try:
