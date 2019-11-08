@@ -90,6 +90,6 @@ for pattern in patterns:
             except:
                 print("some error happened")
 
-os.system(echo("this is the current directory:"))
-os.system(pwd)
-os.system(ls)
+os.system("echo this is the current directory:")
+os.system("pwd")
+os.system("ls")
