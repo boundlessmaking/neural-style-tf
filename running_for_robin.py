@@ -107,7 +107,7 @@ for loss in loss_ratios:
             elapsed = time.time() - start_time
             inst_dur = time.time() - inst_start_time
             dur_list.append(inst_dur)
-            print("_" * 40)
+            print("_" * 60)
             print("   ")
             print("style transfer done in: ", inst_dur )
             print("elapsed time in s:", elapsed)
