@@ -86,7 +86,7 @@ for pattern in patterns:
 
 k = 0
 for depth_style in styles:
-    k + = num_of_trans
+    k += num_of_trans
 
 print("_" * 40)
 print("Style transfers to perform: ", i)
