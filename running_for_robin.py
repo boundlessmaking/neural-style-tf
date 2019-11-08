@@ -57,7 +57,7 @@ def run_helper(content, style, output_path, loss):
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
                  " --max_iterations 100 " + \
-                 " --img_name " + result_name + content.split(".")[0] + "_" + style.split(".")[0] + "_" + loss
+                 " --img_name " + result_name + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
     print(run_string)
@@ -67,7 +67,7 @@ def run_helper(content, style, output_path, loss):
 #loss ratios to be tested
 
 #loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e9"]
+loss_ratios = ["1e5"]
 
 i = 0
 for pattern in patterns:
