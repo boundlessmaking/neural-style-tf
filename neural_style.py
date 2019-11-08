@@ -323,7 +323,7 @@ def relu_layer(layer_name, layer_input, b):
 
 def pool_layer(layer_name, layer_input):
   if args.pooling_type == 'avg':
-    pool = tf.nn.avg_pool(layer_input, ksize=[1, 2, 2, 1], 
+    pool = tf.nn.avg_pool2d(layer_input, ksize=[1, 2, 2, 1],
       strides=[1, 2, 2, 1], padding='SAME')
   elif args.pooling_type == 'max':
     pool = tf.nn.max_pool(layer_input, ksize=[1, 2, 2, 1], 
@@ -548,7 +548,7 @@ def check_image(img, path):
   rendering -- where the magic happens
 '''
 def stylize(content_img, style_imgs, init_img, frame=None):
-  with tf.device(args.device), tf.Session() as sess:
+  with tf.device(args.device), tf.compat.v1.Session() as sess:
     # setup network
     net = build_model(content_img)
     

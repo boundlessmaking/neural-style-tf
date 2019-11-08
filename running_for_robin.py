@@ -9,6 +9,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 results_path = "/run05-test-2/result05/"
+res_path = results_path
 
 style_path = "/run05-test-2/styles05/"
 pattern_path = "/run05-test-2/image_input05/"
@@ -87,6 +88,7 @@ for pattern in patterns:
             tyyli_path = style_path + tyyli
             content_path = pattern_path + pattern
             output_path = results_path + pattern.split(".")[0] + "_" + tyyli + "_" + loss +"_t1"
+            print("_" * 10)
             print(content_path, tyyli_path, output_path, loss)
             j += 1
             try:
@@ -101,7 +103,7 @@ for pattern in patterns:
 print("_"*40)
 print("   ")
 
-git_c_mess = "git commit -m " + "\" ran style transfer " + str(i) + " times saved in" + results_path +" \""
+git_c_mess = "git commit -m " + "\" ran style transfer " + str(i) + " times saved in" + res_path +" \""
 print("commit message: ",git_c_mess)
 
 os.system("git add . ")
