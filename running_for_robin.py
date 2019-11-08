@@ -77,3 +77,7 @@ for pattern in patterns:
                 os.system(run_helper(content_path, tyyli_path, output_path, loss))
             except:
                 print("some error happened")
+
+os.system(echo "this is the current directory:")
+os.system(pwd)
+os.system(ls)
