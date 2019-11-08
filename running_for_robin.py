@@ -1,5 +1,6 @@
 #import run_main
 import os
+import time
 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
@@ -8,13 +9,13 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run05/result05/"
+results_path = "/run06/result06/"
 res_path = results_path
 
-style_path = "/run05/styles05/"
-pattern_path = "/run05/image_input05/"
+style_path = "/run06/styles06/"
+pattern_path = "/run06/image_input06/"
 
-result_name= "result"
+result_name= "result "
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -58,7 +59,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 1000 " + \
+                 " --max_iterations 700 " + \
                  " --img_name " + result_name + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
@@ -68,8 +69,8 @@ def run_helper(content, style, output_path, loss):
 
 #loss ratios to be tested
 
-#loss_ratios = ["1e6", "1e4","1e2"]
-loss_ratios = ["1e3"]
+loss_ratios = ["1e6", "1e4","1e2"]
+#loss_ratios = ["1e3"]
 
 i = 0
 for pattern in patterns:
@@ -81,16 +82,19 @@ print("_" * 40)
 print("Style transfers to perform: ", i)
 
 j = 0
+dur_list = []
+start_time = time.time()
 
-for pattern in patterns:
-    for tyyli in styles:
-        for loss in loss_ratios:
+for loss in loss_ratios:
+    for pattern in patterns:
+        for tyyli in styles:
             tyyli_path = style_path + tyyli
             content_path = pattern_path + pattern
             output_path = results_path + pattern.split(".")[0] + "_" + tyyli + "_" + loss +"_t1"
             print("_" * 10)
             print(content_path, tyyli_path, output_path, loss)
             j += 1
+            inst_start_time = time.time()
             try:
                 print("_"*40)
                 print("   ")
@@ -99,6 +103,25 @@ for pattern in patterns:
                 os.system(run_helper(content_path, tyyli_path, output_path, loss))
             except:
                 print("some error happened")
+
+            elapsed = time.time() - start_time
+            inst_dur = time.time() - inst_start_time
+            dur_list.append(inst_dur)
+            print("_" * 40)
+            print("   ")
+            print("style transfer done in: ", inst_dur )
+            print("elapsed time in s:", elapsed)
+            average_dur = sum(dur_list) / len(dur_list)
+            print("average solve time: ", average_dur)
+            remaining_solves = i - j
+            remaining_time = remaining_solves * average_dur
+            print("remaining solves: ", remaining_solves)
+            print("remaining time:", remaining_time ,"in seconds", remaining_time/60 ,"in minutes", remaining_time/60/60 ,"in hours")
+
+
+
+
+            print("_" * 40)
 
 print("_"*40)
 print("   ")
