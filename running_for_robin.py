@@ -5,10 +5,10 @@ import os
 
 
 
-results_path = "/image_output/result05/"
+results_path = "/run05/result05/"
 
-style_path = "/styles05/"
-pattern_path = "/image_input05/"
+style_path = "/run05/styles05/"
+pattern_path = "/run05/image_input05/"
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
