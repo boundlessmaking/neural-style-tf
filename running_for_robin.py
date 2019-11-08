@@ -60,7 +60,7 @@ def run_helper(content, style, output_path, loss):
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
                  " --max_iterations 700 " + \
-                 " --img_name " + result_name + "_" + loss
+                 " --img_name " + result_name + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
     print(run_string)
