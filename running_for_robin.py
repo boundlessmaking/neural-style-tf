@@ -11,7 +11,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run07-test/result07"
+results_path = "/run07-test/result07/"
 res_path = results_path
 
 style_path = "/run07-test/styles07/"
@@ -87,9 +87,10 @@ for pattern in patterns:
 k = 0
 for depth_style in styles:
     k += num_of_trans
+print("number of transfers to do: ",k)
 
 print("_" * 40)
-print("Style transfers to perform: ", i)
+#print("Style transfers to perform: ", i)
 
 j = 0
 dur_list = []
@@ -114,7 +115,7 @@ for depth_style in styles:
         try:
             print("_" * 40)
             print("   ")
-            print("running style transfer  ", j, " of ", i)
+            print("running style transfer  ", j, " of ", k)
             print("loss: ", rand_loss, "    iterations: ", rand_iteration)
             print("_" * 40)
             os.system(run_helper(
