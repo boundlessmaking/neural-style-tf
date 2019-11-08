@@ -51,8 +51,8 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 500" + \
-                 " --verbose "  # + \
+                 " --max_iterations 500" #+ \
+                 #" --verbose "  # + \
                  #" --device /cpu:0 "
     print(run_string)
     return run_string
@@ -63,8 +63,15 @@ def run_helper(content, style, output_path, loss):
 loss_ratios = ["1e6", "1e4","1e2"]
 #loss_ratios = ["1e7"]
 
+i = 0
+for pattern in patterns:
+    for tyyli in styles:
+        for loss in loss_ratios:
+            i+=1
+print("Style transfers to perform: ", i)
 
-#run this to do the stuff
+j = 0
+
 for pattern in patterns:
     for tyyli in styles:
         for loss in loss_ratios:
@@ -72,8 +79,9 @@ for pattern in patterns:
             content_path = pattern_path + pattern
             output_path = results_path + pattern.split(".")[0] + "_" + tyyli + "_" + loss +"_t1"
             print(content_path, tyyli_path, output_path, loss)
+            j += 1
             try:
-                print("running files")
+                print("running style transfer  ", j ," of ", i)
                 os.system(run_helper(content_path, tyyli_path, output_path, loss))
             except:
                 print("some error happened")
