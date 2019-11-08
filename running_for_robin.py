@@ -99,8 +99,8 @@ for depth_style in styles:
     rand_content = random.sample(patterns, num_of_trans)
     print("random content chosen: ", rand_content)
     for cont_pattern in rand_content:
-        rand_iteration = random.sample(iterations,1)
-        rand_loss = random.sample(loss_ratios,1)
+        rand_iteration = random.choice(iterations)
+        rand_loss = random.choice(loss_ratios)
 
         d_style_path = style_path + depth_style
         content_path = pattern_path + cont_pattern
