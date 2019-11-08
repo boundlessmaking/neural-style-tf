@@ -1,6 +1,7 @@
 #import run_main
 import os
 import time
+import datetime
 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
@@ -115,8 +116,9 @@ for loss in loss_ratios:
             print("average solve time: ", average_dur)
             remaining_solves = i - j
             remaining_time = remaining_solves * average_dur
+            remaining_time = datetime.timedelta(seconds=remaining_time)
             print("remaining solves: ", remaining_solves)
-            print("remaining time:", remaining_time ,"in seconds", remaining_time/60 ,"in minutes", remaining_time/60/60 ,"in hours")
+            print("remaining time:", remaining_time )
 
 
 
