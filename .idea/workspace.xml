@@ -21,8 +21,8 @@
       <file leaf-file-name="running_for_robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_for_robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="577">
+              <caret line="99" column="88" lean-forward="false" selection-start-line="99" selection-start-column="88" selection-end-line="99" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -454,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573220183063</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="run prep 05-2">
+      <created>1573220417821</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573220417821</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -621,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_for_robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="577">
+          <caret line="99" column="88" lean-forward="false" selection-start-line="99" selection-start-column="88" selection-end-line="99" selection-end-column="88" />
           <folding />
         </state>
       </provider>

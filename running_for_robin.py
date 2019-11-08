@@ -97,7 +97,7 @@ for pattern in patterns:
             except:
                 print("some error happened")
 
-git_c_mess = "git commit -m " + "\" ran style transfer " + i + " times saved in" +results_path +" \""
+git_c_mess = "git commit -m " + "\" ran style transfer " + str(i) + " times saved in" + results_path +" \""
 print(git_c_mess)
 
 os.system("git add . ")
