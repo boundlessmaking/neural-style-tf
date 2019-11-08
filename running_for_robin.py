@@ -8,11 +8,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run05-test-2/result05/"
+results_path = "/run05/result05/"
 res_path = results_path
 
-style_path = "/run05-test-2/styles05/"
-pattern_path = "/run05-test-2/image_input05/"
+style_path = "/run05/styles05/"
+pattern_path = "/run05/image_input05/"
 
 result_name= "result"
 
@@ -58,7 +58,7 @@ def run_helper(content, style, output_path, loss):
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
-                 " --max_iterations 120 " + \
+                 " --max_iterations 1000 " + \
                  " --img_name " + result_name + "_" + loss
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
