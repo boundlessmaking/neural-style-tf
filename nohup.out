@@ -1838,3 +1838,12 @@ Instructions for updating:
 Use tf.where in 2.0, which has the same broadcast rule as np.where
 WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 703174868992.000000
+  Number of iterations: 2100
+  Number of functions evaluations: 2106
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 813.757422208786
