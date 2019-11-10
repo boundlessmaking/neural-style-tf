@@ -122,7 +122,7 @@ for depth_style in styles:
             print("_" * 40)
             print("   ")
             print("running style transfer  ", j, " of ", k)
-            print("loss: ", rand_loss, "    iterations: ", rand_iteration)
+            print("loss: ", rand_loss, "    iterations: ", rand_iteration, "   tv_weight: ",rand_tv)
             print("_" * 40)
             os.system(run_helper(
                 content_path,
