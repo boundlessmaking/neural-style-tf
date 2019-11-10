@@ -11,11 +11,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run07/result07/"
+results_path = "/run08/result08/"
 res_path = results_path
 
-style_path = "/run07/styles07/"
-pattern_path = "/run07/image_input07/"
+style_path = "/run08/styles08/"
+pattern_path = "/run08/image_input08/"
 
 result_name= "result_"
 
@@ -56,13 +56,14 @@ for filename in os.listdir(pattern_path):
 
 
 #this gives the system the run commands
-def run_helper(content, style, output_path, loss,iterations,style_name,content_name):
+def run_helper(content, style, output_path, loss,iterations,tv,style_name,content_name):
     run_string = "python neural_style.py --content_img "+ content + \
                  " --style_imgs " + style + \
                  " --img_output_dir " + output_path + \
                  " --style_weight " + loss +\
                  " --max_iterations "+ iterations + \
-                 " --img_name " + result_name + content_name + "-" + style_name + "_lo-" +loss+ "_it-" + iterations
+                 " --tv_weight " + tv + \
+                 " --img_name " + result_name + style_name + "-" + content_name + "_lo-" +loss+ "_it-" + iterations+ "_tv-" + tv
                  #" --verbose "  # + \
                  #" --device /cpu:0 "
     print(run_string)
@@ -71,12 +72,13 @@ def run_helper(content, style, output_path, loss,iterations,style_name,content_n
 
 #loss ratios to be tested
 
-loss_ratios = ["1e6","3e6","1e9","9e3"]
+loss_ratios = ["1e6","3e6","1e9","9e3","3e8"] # --style_weight values
+tv_weights = ["1e-3", "2e-3","8e-2"]
 #loss_ratios = ["1e3"]
 iterations = ["1000","1700","700","500","900","600","950"]
 #iterations = ["100","21","70","50","90","40","95"]
 
-num_of_trans = 5
+num_of_trans = 8
 
 i = 0
 for pattern in patterns:
@@ -102,6 +104,7 @@ for depth_style in styles:
     for cont_pattern in rand_content:
         rand_iteration = random.choice(iterations)
         rand_loss = random.choice(loss_ratios)
+        rand_tv = random.choice(tv_weights)
 
         d_style_path = style_path + depth_style
         content_path = pattern_path + cont_pattern
@@ -127,6 +130,7 @@ for depth_style in styles:
                 output_path,
                 rand_loss,
                 rand_iteration,
+                rand_tv,
                 depth_style.split(".")[0],
                 cont_pattern.split(".")[0]))
         except:
