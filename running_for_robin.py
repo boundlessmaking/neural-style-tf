@@ -71,9 +71,9 @@ def run_helper(content, style, output_path, loss,iterations,style_name,content_n
 
 #loss ratios to be tested
 
-loss_ratios = ["1e6", "2e1","3e6","1e9","1e2"]
+loss_ratios = ["1e6","3e6","1e9","9e3"]
 #loss_ratios = ["1e3"]
-iterations = ["1000","2100","700","500","900","400","950"]
+iterations = ["1000","1700","700","500","900","600","950"]
 #iterations = ["100","21","70","50","90","40","95"]
 
 num_of_trans = 5
@@ -147,6 +147,16 @@ for depth_style in styles:
         print("remaining solves: ", remaining_solves)
         print("estimated remaining time:", remaining_time)
         print("_" * 40)
+
+    print("   ")
+    print("committing and pushing last ", num_of_trans , " files")
+
+    git_c_mess = "git commit -m " + "\" ran style transfer on " + depth_style + "   " + str(num_of_trans) + " times saved in" + res_path + " \""
+    print("commit message: ", git_c_mess)
+
+    os.system("git add . ")
+    os.system(git_c_mess)
+    os.system("git push")
 
 '''
 for iteration in iterations:
