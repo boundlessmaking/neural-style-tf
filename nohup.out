@@ -6672,3 +6672,686 @@ INFO:tensorflow:Optimization terminated with:
 ---- RENDERING SINGLE IMAGE ----
 
 Single image elapsed time: 402.43023324012756
+[master 05db0eb]  ran style transfer 13690 times saved in/run07/result07/
+ 541 files changed, 5092 insertions(+)
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow24_lo-1e9_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-1-cloth_flow37_lo-1e2_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow28_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-14-cloth_flow35_lo-1e2_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-15-cloth_flow36_lo-3e6_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-16-cloth_flow33_lo-1e9_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-17-cloth_flow21_lo-3e6_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-19-cloth_flow36_lo-1e9_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow05_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow23_lo-1e2_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow28_lo-3e6_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow33_lo-1e2_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-2-cloth_flow40_lo-1e9_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-20-cloth_flow11_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow06_lo-1e9_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-21-cloth_flow22_lo-1e6_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow06_lo-2e1_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow19_lo-3e6_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow33_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-23-cloth_flow36_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow21_lo-1e6_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-25-cloth_flow22_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-27-cloth_flow29_lo-1e9_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow18_lo-1e6_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow22_lo-3e6_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-28-cloth_flow35_lo-1e9_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-29-cloth_flow40_lo-1e9_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-3-cloth_flow40_lo-1e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow23_lo-2e1_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-30-cloth_flow32_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-31-cloth_flow33_lo-3e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow11_lo-1e6_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-32-cloth_flow38_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-34-cloth_flow19_lo-2e1_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow13_lo-2e1_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-35-cloth_flow37_lo-2e1_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow37_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-37-cloth_flow40_lo-3e6_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow29_lo-1e9_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-39-cloth_flow28_lo-1e2_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-4-cloth_flow36_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-40-cloth_flow18_lo-3e6_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow38_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-41-cloth_flow39_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow36_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-42-cloth_flow37_lo-2e1_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-43-cloth_flow18_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-44-cloth_flow23_lo-1e9_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow21_lo-1e2_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-45-cloth_flow22_lo-1e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow19_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow38_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow21_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-49-cloth_flow40_lo-1e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow18_lo-3e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow22_lo-1e2_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-5-cloth_flow28_lo-3e6_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-50-cloth_flow32_lo-3e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow32_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-52-cloth_flow39_lo-3e6_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow24_lo-2e1_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-53-cloth_flow35_lo-3e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-55-cloth_flow24_lo-1e9_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow11_lo-1e9_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-56-cloth_flow23_lo-3e6_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow23_lo-1e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow11_lo-1e9_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow19_lo-2e1_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-58-cloth_flow24_lo-1e2_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow06_lo-1e2_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow13_lo-1e6_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow28_lo-2e1_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-59-cloth_flow33_lo-1e2_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-60-cloth_flow11_lo-1e6_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow04_lo-1e2_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow29_lo-1e6_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow32_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow35_lo-2e1_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-62-cloth_flow38_lo-1e2_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow04_lo-1e2_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-71-cloth_flow37_lo-3e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow04_lo-1e6_it-2100/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow06_lo-1e2_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow35_lo-3e6_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow38_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-72-cloth_flow39_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow04_lo-1e6_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow13_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow24_lo-1e9_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-73-cloth_flow39_lo-2e1_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow32_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000.png
+ create mode 100644 run07/result07/result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-77-cloth_flow18_lo-1e2_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow06_lo-1e9_it-900/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-78-cloth_flow29_lo-1e2_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400.png
+ create mode 100644 run07/result07/result_gh_pattern01-8-cloth_flow39_lo-3e6_it-400/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-80-cloth_flow04_lo-3e6_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500.png
+ create mode 100644 run07/result07/result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-9-cloth_flow21_lo-2e1_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow19_lo-1e6_it-700/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950.png
+ create mode 100644 run07/result07/result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950/style_0.png
+ create mode 100644 run07/result07/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700/content.png
+ create mode 100644 run07/result07/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700/init.png
+ create mode 100644 run07/result07/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700/meta_data.txt
+ create mode 100644 run07/result07/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700.png
+ create mode 100644 run07/result07/result_gh_pattern01-95-cloth_flow29_lo-3e6_it-700/style_0.png
+To https://github.com/boundlessmaking/neural-style-tf.git
+   e969b7c..05db0eb  master -> master
+
+____________________________________________________________
+   
+style transfer done in:  208.74407172203064
+elapsed time in s: 62703.09657382965
+average solve time:  356.26737848195165
+remaining solves:  9
+estimated remaining time: 0:53:26.406406
+________________________________________
+________________________________________
+   
+running style transfer   177  of  185
+loss:  1e2     iterations:  400
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-73.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e2 --max_iterations 400 --img_name result_gh_pattern01-73-cloth_flow05_lo-1e2_it-400
+____________________________________________________________
+   
+style transfer done in:  173.21632361412048
+elapsed time in s: 62876.31310009956
+average solve time:  355.2331917312859
+remaining solves:  8
+estimated remaining time: 0:47:21.865534
+________________________________________
+________________________________________
+   
+running style transfer   178  of  185
+loss:  1e2     iterations:  500
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-30.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e2 --max_iterations 500 --img_name result_gh_pattern01-30-cloth_flow05_lo-1e2_it-500
+____________________________________________________________
+   
+style transfer done in:  208.20111441612244
+elapsed time in s: 63084.51442837715
+average solve time:  354.40716882502096
+remaining solves:  7
+estimated remaining time: 0:41:20.850182
+________________________________________
+________________________________________
+   
+running style transfer   179  of  185
+loss:  2e1     iterations:  950
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-77.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 2e1 --max_iterations 950 --img_name result_gh_pattern01-77-cloth_flow05_lo-2e1_it-950
+____________________________________________________________
+   
+style transfer done in:  378.3201148509979
+elapsed time in s: 63462.83476090431
+average solve time:  354.540760702261
+remaining solves:  6
+estimated remaining time: 0:35:27.244564
+________________________________________
+________________________________________
+   
+running style transfer   180  of  185
+loss:  1e6     iterations:  500
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-82.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e6 --max_iterations 500 --img_name result_gh_pattern01-82-cloth_flow05_lo-1e6_it-500
+____________________________________________________________
+   
+style transfer done in:  212.04383087158203
+elapsed time in s: 63674.87876749039
+average solve time:  353.74911109209063
+remaining solves:  5
+estimated remaining time: 0:29:28.745555
+________________________________________
+random content chosen:  ['gh_pattern01-38.jpg', 'gh_pattern01-48.jpg', 'gh_pattern01-94.jpg', 'gh_pattern01-75.jpg', 'gh_pattern01-57.jpg']
+________________________________________
+   
+running style transfer   181  of  185
+loss:  2e1     iterations:  950
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-38.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow41.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 2e1 --max_iterations 950 --img_name result_gh_pattern01-38-cloth_flow41_lo-2e1_it-950
+____________________________________________________________
+   
+style transfer done in:  379.6225426197052
+elapsed time in s: 64054.501608371735
+average solve time:  353.89205822760226
+remaining solves:  4
+estimated remaining time: 0:23:35.568233
+________________________________________
+________________________________________
+   
+running style transfer   182  of  185
+loss:  1e2     iterations:  2100
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-48.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow41.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e2 --max_iterations 2100 --img_name result_gh_pattern01-48-cloth_flow41_lo-1e2_it-2100
+____________________________________________________________
+   
+style transfer done in:  816.0080111026764
+elapsed time in s: 64870.50979971886
+average solve time:  356.431156869773
+remaining solves:  3
+estimated remaining time: 0:17:49.293471
+________________________________________
+________________________________________
+   
+running style transfer   183  of  185
+loss:  1e6     iterations:  950
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-94.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow41.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e6 --max_iterations 950 --img_name result_gh_pattern01-94-cloth_flow41_lo-1e6_it-950
+____________________________________________________________
+   
+style transfer done in:  377.1240711212158
+elapsed time in s: 65247.63405299187
+average solve time:  356.5442329039339
+remaining solves:  2
+estimated remaining time: 0:11:53.088466
+________________________________________
+________________________________________
+   
+running style transfer   184  of  185
+loss:  3e6     iterations:  1000
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-75.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow41.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 3e6 --max_iterations 1000 --img_name result_gh_pattern01-75-cloth_flow41_lo-3e6_it-1000
+____________________________________________________________
+   
+style transfer done in:  404.7800507545471
+elapsed time in s: 65652.41433739662
+average solve time:  356.80638408790463
+remaining solves:  1
+estimated remaining time: 0:05:56.806384
+________________________________________
+________________________________________
+   
+running style transfer   185  of  185
+loss:  1e9     iterations:  1000
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run07/image_input07/gh_pattern01-57.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run07/styles07/cloth_flow41.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run07/result07/ --style_weight 1e9 --max_iterations 1000 --img_name result_gh_pattern01-57-cloth_flow41_lo-1e9_it-1000
+____________________________________________________________
+   
+style transfer done in:  404.970721244812
+elapsed time in s: 66057.3852801323
+average solve time:  357.06673185632036
+remaining solves:  0
+estimated remaining time: 0:00:00
+________________________________________
+________________________________________
+   
+commit message:  git commit -m " ran style transfer 13690 times saved in/run07/result07/ "
