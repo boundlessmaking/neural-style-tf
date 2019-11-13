@@ -11,11 +11,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # disables Tensorflow Warnings
 
 
 
-results_path = "/run08/result08/"
+results_path = "/run09/result09/"
 res_path = results_path
 
-style_path = "/run08/styles08/"
-pattern_path = "/run08/image_input08/"
+style_path = "/run09/styles09/"
+pattern_path = "/run09/image_input09/"
 
 result_name= "result_"
 
@@ -72,13 +72,13 @@ def run_helper(content, style, output_path, loss,iterations,tv,style_name,conten
 
 #loss ratios to be tested
 
-loss_ratios = ["1e6","3e6","1e9","9e3","3e8"] # --style_weight values
+loss_ratios = ["1e6","3e6","1e8","9e4","3e5"] # --style_weight values
 tv_weights = ["1e-3", "2e-3","8e-2"]
 #loss_ratios = ["1e3"]
-iterations = ["1000","1700","700","500","900","600","950"]
+iterations = ["1000","1200","700","550","850","600","900"]
 #iterations = ["100","21","70","50","90","40","95"]
 
-num_of_trans = 8
+num_of_trans = 7
 
 i = 0
 for pattern in patterns:
