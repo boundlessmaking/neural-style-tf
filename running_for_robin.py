@@ -78,7 +78,7 @@ tv_weights = ["1e-3", "2e-3","8e-2"]
 iterations = ["1000","1200","700","550","850","600","900"]
 #iterations = ["100","21","70","50","90","40","95"]
 
-num_of_trans = 7
+num_of_trans = 6
 
 i = 0
 for pattern in patterns:
