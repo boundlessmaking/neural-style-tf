@@ -1,0 +1,12 @@
+image_name: result_Cubes_03-gh_pattern01-48_lo-3e6_it-600_tv-1e-3
+content: /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-48.jpg
+styles[0]: 1.0 * /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Cubes_03.png
+init_type: content
+content_weight: 5.0
+style_weight: 3000000.0
+tv_weight: 0.001
+content_layers: ['conv4_2']
+style_layers: ['relu1_1', 'relu2_1', 'relu3_1', 'relu4_1', 'relu5_1']
+optimizer_type: lbfgs
+max_iterations: 600
+max_image_size: 512
