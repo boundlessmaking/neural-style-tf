@@ -1,115 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd6c7f71-795b-49b6-8b9c-6b2f49e14704" name="Default" comment="prep run07-test">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/image_input08/gh_pattern01-99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/COne_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/COne_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/COne_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/COne_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Cubes_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Cubes_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Cubes_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Humans_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Humans_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Humans_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Humans_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/ICOsphere_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/ICOsphere_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Image0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Metaballs_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Ocean_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Tesselation_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run09/styles08/Wire_balls_01.png" afterPath="" />
-    </list>
+    <list default="true" id="bd6c7f71-795b-49b6-8b9c-6b2f49e14704" name="Default" comment="prep run07-test" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,10 +21,9 @@
       <file leaf-file-name="running_for_robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_for_robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="15" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
               <folding>
-                <element signature="e#17#26#0" expanded="true" />
                 <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
               </folding>
             </state>
@@ -813,7 +704,6 @@
         <state relative-caret-position="1740">
           <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -824,7 +714,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -845,7 +734,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -866,7 +754,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -887,7 +774,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -908,7 +794,6 @@
         <state relative-caret-position="105">
           <caret line="7" column="64" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="64" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -929,7 +814,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -950,7 +834,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
@@ -986,10 +869,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_for_robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="15" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding>
-            <element signature="e#17#26#0" expanded="true" />
             <marker date="1573682957975" expanded="false" signature="4802:6873" ph="..." />
           </folding>
         </state>
