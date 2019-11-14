@@ -1,0 +1,12 @@
+image_name: result_Humans_01-gh_pattern01-57_lo-1e8_it-700_tv-8e-2
+content: /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-57.jpg
+styles[0]: 1.0 * /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Humans_01.png
+init_type: content
+content_weight: 5.0
+style_weight: 100000000.0
+tv_weight: 0.08
+content_layers: ['conv4_2']
+style_layers: ['relu1_1', 'relu2_1', 'relu3_1', 'relu4_1', 'relu5_1']
+optimizer_type: lbfgs
+max_iterations: 700
+max_image_size: 512
