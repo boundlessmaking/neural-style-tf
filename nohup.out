@@ -13549,3 +13549,32 @@ INFO:tensorflow:Optimization terminated with:
 ---- RENDERING SINGLE IMAGE ----
 
 Single image elapsed time: 357.27243995666504
+[master 4a4320d]  ran style transfer on Humans_03.png   5 times saved in/run09/result09/
+ 26 files changed, 333 insertions(+)
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-16_lo-1e8_it-1200_tv-2e-3/style_0.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-23_lo-1e6_it-1200_tv-2e-3/style_0.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-40_lo-9e4_it-900_tv-2e-3/style_0.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2/content.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2/init.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2/meta_data.txt
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-50_lo-3e5_it-900_tv-8e-2/style_0.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3/content.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3/init.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3.png
+ create mode 100644 run09/result09/result_Humans_03-gh_pattern01-81_lo-3e5_it-1000_tv-1e-3/style_0.png
+To https://github.com/boundlessmaking/neural-style-tf.git
+   446f2f2..4a4320d  master -> master
