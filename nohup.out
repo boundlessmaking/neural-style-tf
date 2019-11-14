@@ -12455,3 +12455,273 @@ INFO:tensorflow:Optimization terminated with:
 ---- RENDERING SINGLE IMAGE ----
 
 Single image elapsed time: 281.00577449798584
+[master 98ebf0e]  ran style transfer on Tesselation_05.png   5 times saved in/run09/result09/
+ 26 files changed, 199 insertions(+), 1 deletion(-)
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3/style_0.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3/style_0.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3/content.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3/init.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3/style_0.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2/content.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2/init.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2/meta_data.txt
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2/style_0.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3.png
+ create mode 100644 run09/result09/result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3/style_0.png
+To https://github.com/boundlessmaking/neural-style-tf.git
+   b0dda0f..98ebf0e  master -> master
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 88146558976.000000
+  Number of iterations: 700
+  Number of functions evaluations: 715
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 280.4897119998932
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 111501025280.000000
+  Number of iterations: 550
+  Number of functions evaluations: 562
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 225.85334062576294
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 32105805824.000000
+  Number of iterations: 600
+  Number of functions evaluations: 611
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 244.30183148384094
+ 232.61605548858643
+elapsed time in s: 37870.46103334427
+average solve time:  327.994428244881
+remaining solves:  30
+estimated remaining time: 2:43:59.832847
+________________________________________
+   
+committing and pushing last  5  files
+commit message:  git commit -m " ran style transfer on Ocean_10.png   5 times saved in/run09/result09/ "
+random content chosen:  ['gh_pattern01-30.jpg', 'gh_pattern01-59.jpg', 'gh_pattern01-22.jpg', 'gh_pattern01-18.jpg', 'gh_pattern01-38.jpg']
+________________________________________
+   
+running style transfer   116  of  145
+loss:  3e5     iterations:  1200    tv_weight:  1e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-30.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 3e5 --max_iterations 1200 --tv_weight 1e-3 --img_name result_Tesselation_05-gh_pattern01-30_lo-3e5_it-1200_tv-1e-3
+____________________________________________________________
+   
+style transfer done in:  475.87348556518555
+elapsed time in s: 38353.29593062401
+average solve time:  329.2692477045388
+remaining solves:  29
+estimated remaining time: 2:39:08.808183
+________________________________________
+________________________________________
+   
+running style transfer   117  of  145
+loss:  1e6     iterations:  600    tv_weight:  2e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-59.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 1e6 --max_iterations 600 --tv_weight 2e-3 --img_name result_Tesselation_05-gh_pattern01-59_lo-1e6_it-600_tv-2e-3
+____________________________________________________________
+   
+style transfer done in:  250.60461354255676
+elapsed time in s: 38603.90079474449
+average solve time:  328.59690040400903
+remaining solves:  28
+estimated remaining time: 2:33:20.713211
+________________________________________
+________________________________________
+   
+running style transfer   118  of  145
+loss:  1e8     iterations:  1200    tv_weight:  2e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-22.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 1e8 --max_iterations 1200 --tv_weight 2e-3 --img_name result_Tesselation_05-gh_pattern01-22_lo-1e8_it-1200_tv-2e-3
+____________________________________________________________
+   
+style transfer done in:  479.46221923828125
+elapsed time in s: 39083.36322903633
+average solve time:  329.87542005514695
+remaining solves:  27
+estimated remaining time: 2:28:26.636341
+________________________________________
+________________________________________
+   
+running style transfer   119  of  145
+loss:  3e5     iterations:  900    tv_weight:  2e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-18.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 3e5 --max_iterations 900 --tv_weight 2e-3 --img_name result_Tesselation_05-gh_pattern01-18_lo-3e5_it-900_tv-2e-3
+____________________________________________________________
+   
+style transfer done in:  362.37492990493774
+elapsed time in s: 39445.73837065697
+average solve time:  330.1485251799351
+remaining solves:  26
+estimated remaining time: 2:23:03.861655
+________________________________________
+________________________________________
+   
+running style transfer   120  of  145
+loss:  1e8     iterations:  700    tv_weight:  8e-2
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-38.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_05.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 1e8 --max_iterations 700 --tv_weight 8e-2 --img_name result_Tesselation_05-gh_pattern01-38_lo-1e8_it-700_tv-8e-2
+____________________________________________________________
+   
+style transfer done in:  283.65592193603516
+elapsed time in s: 39729.39449906349
+average solve time:  329.76108681956924
+remaining solves:  25
+estimated remaining time: 2:17:24.027170
+________________________________________
+   
+committing and pushing last  5  files
+commit message:  git commit -m " ran style transfer on Tesselation_05.png   5 times saved in/run09/result09/ "
+random content chosen:  ['gh_pattern01-20.jpg', 'gh_pattern01-85.jpg', 'gh_pattern01-8.jpg', 'gh_pattern01-27.jpg', 'gh_pattern01-7.jpg']
+________________________________________
+   
+running style transfer   121  of  145
+loss:  3e6     iterations:  700    tv_weight:  1e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-20.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_03.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 3e6 --max_iterations 700 --tv_weight 1e-3 --img_name result_Tesselation_03-gh_pattern01-20_lo-3e6_it-700_tv-1e-3
+____________________________________________________________
+   
+style transfer done in:  283.02557611465454
+elapsed time in s: 40022.80967235565
+average solve time:  329.374842929446
+remaining solves:  24
+estimated remaining time: 2:11:44.996230
+________________________________________
+________________________________________
+   
+running style transfer   122  of  145
+loss:  3e6     iterations:  550    tv_weight:  1e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-85.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_03.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 3e6 --max_iterations 550 --tv_weight 1e-3 --img_name result_Tesselation_03-gh_pattern01-85_lo-3e6_it-550_tv-1e-3
+____________________________________________________________
+   
+style transfer done in:  228.46235847473145
+elapsed time in s: 40251.27222752571
+average solve time:  328.5476914175221
+remaining solves:  23
+estimated remaining time: 2:05:56.596903
+________________________________________
+________________________________________
+   
+running style transfer   123  of  145
+loss:  1e6     iterations:  600    tv_weight:  1e-3
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-8.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_03.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 1e6 --max_iterations 600 --tv_weight 1e-3 --img_name result_Tesselation_03-gh_pattern01-8_lo-1e6_it-600_tv-1e-3
+____________________________________________________________
+   
+style transfer done in:  246.89698100090027
+elapsed time in s: 40498.1694123745
+average solve time:  327.88386450356586
+remaining solves:  22
+estimated remaining time: 2:00:13.445019
+________________________________________
+________________________________________
+   
+running style transfer   124  of  145
+loss:  1e8     iterations:  1000    tv_weight:  8e-2
+________________________________________
+python neural_style.py --content_img /home/rodwyll/style_trans/neural-style-tf/run09/image_input09/gh_pattern01-27.jpg --style_imgs /home/rodwyll/style_trans/neural-style-tf/run09/styles09/Tesselation_03.png --img_output_dir /home/rodwyll/style_trans/neural-style-tf/run09/result09/ --style_weight 1e8 --max_iterations 1000 --tv_weight 8e-2 --img_name result_Tesselation_03-gh_pattern01-27_lo-1e8_it-1000_tv-8e-2WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 1912238112768.000000
+  Number of iterations: 1000
+  Number of functions evaluations: 1025
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 394.3012731075287
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 6978161152.000000
+  Number of iterations: 1200
+  Number of functions evaluations: 1233
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 472.2748944759369
