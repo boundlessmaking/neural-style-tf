@@ -10808,3 +10808,142 @@ INFO:tensorflow:Optimization terminated with:
 ---- RENDERING SINGLE IMAGE ----
 
 Single image elapsed time: 228.76165294647217
+[master 37fff18]  ran style transfer on Ocean_08.png   5 times saved in/run09/result09/
+ 26 files changed, 329 insertions(+)
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2/content.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2/init.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2/meta_data.txt
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-15_lo-3e6_it-850_tv-8e-2/style_0.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2/content.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2/init.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2/meta_data.txt
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-36_lo-3e5_it-550_tv-8e-2/style_0.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3/content.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3/init.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-43_lo-3e6_it-900_tv-1e-3/style_0.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3/content.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3/init.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-5_lo-1e8_it-900_tv-1e-3/style_0.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3/content.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3/init.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3/meta_data.txt
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3.png
+ create mode 100644 run09/result09/result_Ocean_08-gh_pattern01-82_lo-1e6_it-550_tv-2e-3/style_0.png
+To https://github.com/boundlessmaking/neural-style-tf.git
+   1473b95..37fff18  master -> master
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 20938090496.000000
+  Number of iterations: 550
+  Number of functions evaluations: 570
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 228.21869158744812
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 1847689871360.000000
+  Number of iterations: 1200
+  Number of functions evaluations: 1243
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 477.1001195907593
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 9113104384.000000
+  Number of iterations: 1000
+  Number of functions evaluations: 1031
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 399.6876428127289
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 82344017920.000000
+  Number of iterations: 1000
+  Number of functions evaluations: 1031
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 401.7897334098816
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/rodwyll/env01/lib/python3.5/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From neural_style.py:603: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:tensorflow:Optimization terminated with:
+  Message: b'STOP: TOTAL NO. of ITERATIONS REACHED LIMIT'
+  Objective function value: 2771222003712.000000
+  Number of iterations: 850
+  Number of functions evaluations: 881
+
+---- RENDERING SINGLE IMAGE ----
+
+Single image elapsed time: 340.5806157588959
